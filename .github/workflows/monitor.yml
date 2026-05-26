@@ -27,7 +27,7 @@ jobs:
 
       - name: Check availability
         env:
-          TARGET_DATE: "2026-06-04"
+          TARGET_DATE: "2026-05-31"
           TARGET_URL: "https://eipro.jp/takachiho1/eventCalendars/index"
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
